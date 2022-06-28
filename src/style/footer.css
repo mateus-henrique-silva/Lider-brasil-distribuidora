@@ -27,7 +27,7 @@ footer{
 .redes a img{
     width:100%;
 }
-.redes:last-child{
-   padding:0.5rem;
+.redes{
+    margin-top:10px;
     width:100%;
 }
