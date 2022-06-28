@@ -70,18 +70,25 @@
 .tOne {
   width: 40%;
   text-align: center;
-  font-size: 90px;
+  
   opacity: 0.2;
   flex-wrap: wrap;
   font-weight: bold;
-  text-transform: uppercase;
+
 }
 
+
 .tTwo {
-  width: 50%;
+  width: 40%;
   flex-wrap: wrap;
-  font-size: 25px;
-  text-transform: uppercase;
+  font-size: 20px;
+  
+
+}
+
+.tTwo:first-child {
+  margin-left: 100px;
+
 }
 
 @media (max-width: 850px) {
@@ -98,7 +105,7 @@
     flex-wrap: wrap;
 
     font-weight: bold;
-    text-transform: uppercase;
+  
   }
 
   .tTwo {
@@ -106,7 +113,7 @@
     width: 100%;
     flex-wrap: wrap;
     font-size: 13px;
-    text-transform: uppercase;
+  
   }
 }
 
@@ -133,14 +140,16 @@
   display: flex;
   justify-content: space-around;
   list-style: none;
-  margin-top: 100px;
+ 
   width: 100%;
   align-items: center;
-  height: 70vh;
+  height: 90vh;
   align-items: center;
+
 }
 .list-branding-two img {
   width: 250px;
+  
 }
 
 @media (max-width: 850px) {
@@ -153,4 +162,86 @@
     width: 180px;
     margin-top: 20px;
   }
+}
+
+.solutions h1{
+  text-align: center;
+}
+.solutions{
+  
+  justify-content:center;
+  
+  width: 100%;
+  background-color:#f9f5f5;
+}
+
+.solutions h1{
+  font-size: 50px;
+}
+
+.img-lojas{
+  width: 100%;
+  display: flex;
+}
+
+.imgLoja{
+  margin-left:60px;
+  width: 70%;
+}
+
+
+.textLoja{
+  width: 50%;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+@media (max-width: 850px) {
+  .imgLoja{
+    display:none;
+  }
+  .textLoja{
+    width: 100%;
+  }
+  .img-lojas{
+    margin-top: 660px;
+    text-align: center;
+  }
+
+  footer {
+    margin-top:100px;
+  }
+
+  .solutionH{
+    display:none;
+  }
+  .textMobile{
+    display: block;
+  }
+
+  .tTwo{
+    display: none;
+  }
+ 
+  .tOne h2{
+    font-size: 60px;
+  }
+  .tOne h1{
+    font-size:70px;
+  }
+
+}
+
+.textMobile{
+  display: none;
+}
+
+.tOne h2{
+  font-size: 130px;
+}
+.tOne h1{
+  font-size:150px;
 }
